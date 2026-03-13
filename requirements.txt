@@ -1,0 +1,6 @@
+streamlit
+pymongo
+pydantic
+pydantic-settings
+python-dotenv
+google-genai
