@@ -3,12 +3,10 @@ import streamlit as st
 from services.get_model_list import get_ollama_model_list
 from services.get_title import get_chat_title
 from services.chat_utilities import get_answer
-from db.conversations import (
-    create_new_conversation,
-    add_message,
-    get_conversation,
-    get_all_conversations,
-)
+from db.conversations import create_new_conversation
+from db.conversations import add_message
+from db.conversations import get_conversation
+from db.conversations import get_all_conversations
 
 # ---- Page Config ----
 st.set_page_config(page_title="Gemini Chatbot", page_icon="🤖", layout="centered")
